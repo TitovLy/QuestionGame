@@ -51,4 +51,8 @@ public class Question {
     public Question(int CORRECT_NUMBER_INDEX) {
         this.CORRECT_NUMBER_INDEX = CORRECT_NUMBER_INDEX;
     }
+
+    public int getCORRECT_NUMBER_INDEX() {
+        return CORRECT_NUMBER_INDEX;
+    }
 }
